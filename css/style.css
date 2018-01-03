@@ -46,14 +46,72 @@ table {
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Raleway', sans-serif;
 }
 
 .main_picture {
-    background: url("../img/bg-header.jpg") no-repeat center center fixed;
+    background: url("../img/bg/main_bg_1.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     max-height: 100%;
     width: 100%;
+}
+
+.main-picture > ul > li >a {
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: wheat;
+}
+.slogan {
+	text-align: center;
+	font-weight: 600;
+	font-size: 4.5rem;
+	color: wheat;
+	margin-top: 20rem;
+}
+.slogan > p {
+	font-weight: 500;
+	font-size: 3.5rem;
+	margin-bottom: 1rem;
+}
+.slogan > h1 {
+	letter-spacing: 0.5rem;
+}
+
+hr {
+	height: 5px;
+	color: wheat;
+	background-color: wheat;
+	border: none;
+	width: 50px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.learn_more_button {
+	border: 3px solid wheat;
+	width: 15rem;
+	height: 4rem;
+	color: wheat;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 2rem;
+}
+
+.whatWeDo {
+	margin-top: 5rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.StoryAboutUs {
+	margin-top: 2rem;
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+.LorIp {
+	text-align: center;
 }
 
