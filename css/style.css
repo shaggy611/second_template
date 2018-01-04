@@ -113,5 +113,45 @@ hr {
 
 .LorIp {
 	text-align: center;
+	color: #999;
+	
+	margin-left: 30rem;
+	margin-right: 30rem;
 }
 
+
+.picInRow {
+	margin: 5% 10% 5% 10%;
+}
+
+.own_hr {
+	background: #f38181;
+	width: 80px;
+}
+.RowWithElem > .col {
+	text-align: center;
+	border-right: 1px solid #b5eae0;
+	height: 15rem;
+	background: #95e1d3;
+	color: #fff;
+	
+}
+.RowWithElem > .col > p:first-child {
+	margin-top: 25%;
+	font-weight: 700;
+	font-size: 4rem;
+	
+}
+
+
+.RowWithElem {
+	background: #95e1d3;
+}
+
+.RowWithElem > .col:first-child {
+	margin-left: 4rem;
+	border-left: 1px solid #b5eae0;
+}
+.RowWithElem > .col:last-child {
+	margin-right: 4rem;
+}
