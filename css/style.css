@@ -131,13 +131,13 @@ hr {
 .RowWithElem > .col {
 	text-align: center;
 	border-right: 1px solid #b5eae0;
-	height: 15rem;
+	height: 12rem;
 	background: #95e1d3;
 	color: #fff;
 	
 }
 .RowWithElem > .col > p:first-child {
-	margin-top: 25%;
+	margin-top: 20%;
 	font-weight: 700;
 	font-size: 4rem;
 	
@@ -155,3 +155,22 @@ hr {
 .RowWithElem > .col:last-child {
 	margin-right: 4rem;
 }
+
+.services {
+	/*float: left;*/
+	margin-right: 4%;
+}
+
+.textInServices {
+	width: 60%;
+}
+
+.lineBorderRow {
+	border-bottom: 1px solid #b5eae0;
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+}
+.lineBorderRow > div {
+	margin-left: 10rem
+}
+
