@@ -67,7 +67,7 @@ body {
 	font-weight: 600;
 	font-size: 4.5rem;
 	color: wheat;
-	margin-top: 20rem;
+	margin-top: 15%;
 }
 .slogan > p {
 	font-weight: 500;
@@ -114,14 +114,17 @@ hr {
 .LorIp {
 	text-align: center;
 	color: #999;
-	
-	margin-left: 30rem;
-	margin-right: 30rem;
+	margin-left: 20rem;
+	margin-right: 20rem;
 }
 
 
 .picInRow {
 	margin: 5% 10% 5% 10%;
+}
+
+.picInRow > div > img {
+    
 }
 
 .own_hr {
@@ -170,7 +173,28 @@ hr {
 	margin-bottom: 2%;
 	padding-bottom: 2%;
 }
-.lineBorderRow > div {
-	margin-left: 10rem
+
+
+
+.story_about {
+    margin-bottom: 10%;
 }
 
+._devices {
+    background: url(../img/bg/bg-features.jpg) no-repeat;
+    background-size: cover;
+}
+
+.ipad {
+    margin: 0 auto;
+}
+
+._ipad {
+    text-align: center;
+}
+
+._iphone {
+    position: absolute;
+    right: 20%;
+    bottom: -15%;
+}
