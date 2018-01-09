@@ -195,6 +195,56 @@ hr {
 
 ._iphone {
     position: absolute;
-    right: 20%;
+    right: 30%;
     bottom: -15%;
+}
+
+.WhatWeDo {
+	margin-top: 5%;
+}
+
+.con_own_style {
+	text-align: right;
+
+}
+
+.con_own_style_1 {
+	text-align: left;
+}
+
+.con_own_style_2 {
+	width: 80%;
+	min-height: 100%;
+}
+
+.card-header {
+	height: 4rem;
+	
+}
+
+.card {
+	
+	
+}
+
+
+
+.own_hr_1 {
+	height: 3px;
+	color: red;
+	background-color: red;
+	border: none;
+	width: 50px;
+	float: left;
+	margin-top: 6px;
+	margin-right: 3%;
+}
+
+._quotes {
+	background: #f7f7f7;
+	margin-top: 5%;
+}
+
+._quotes > .row > p {
+	font-weight: 600;
 }
