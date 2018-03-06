@@ -90,8 +90,8 @@ body {
 }
 
 .main_picture {
-    background: url("../img/photo/main_bg_2.jpeg") no-repeat fixed;
-    background-position: center;
+    background: url("../img/photo/main_bg_2.jpeg") no-repeat center center fixed;
+    /*background-position: center;*/
     background-size: cover;
     height: 100vh;
     max-height: 100%;
@@ -101,7 +101,7 @@ body {
 .main-picture > ul > li > a {
 	font-weight: 600;
 	font-size: 2.5rem;
-	color: #b23838;
+	color: #ff6d6d;
 	font-family: 'Lobster', cursive;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.01);
 }
@@ -114,7 +114,7 @@ body {
 	/*border-bottom: 3px solid rgb(219, 86, 86);*/
 	
 	transition: border 0.3s ease-in;
-	border-bottom: 3px solid #b23838;
+	border-bottom: 3px solid #ff6d6d;
 }
 
 
@@ -167,13 +167,19 @@ hr {
 }
 
 .learn_more_button {
-	border: 3px solid wheat;
-	width: 15rem;
-	height: 4rem;
-	color: wheat;
+	border: 5px solid #f38181;
+	width: 25rem;
+	height: 5rem;
+	color: white;
 	font-size: 1.5rem;
 	font-weight: 700;
-	margin-top: 2rem;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.1rem;
+}
+
+.learn_more_button:hover {
+	border: 5px solid #f38181;
+	background: rgba(243, 129, 129, 0.3);
 }
 
 .whatWeDo {
@@ -505,4 +511,25 @@ hr {
 
 .main_menu {
 	padding-top: 1%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.next_button {
+	padding-top: 40%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.dark {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.28);
+	z-index: 5;
+	position: relative;
+}
+
+.main_picture_ank {
+	padding-left: 0%;
+	padding-right: 0%;
 }
