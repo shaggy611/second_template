@@ -98,10 +98,29 @@ body {
     width: 100%;
 }
 
-.main-picture > ul > li >a {
+.main-picture > ul > li > a {
 	font-weight: 600;
-	font-size: 1.5rem;
-	color: wheat;
+	font-size: 2.5rem;
+	color: #b23838;
+	font-family: 'Lobster', cursive;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.01);
+}
+
+
+
+
+
+.main-picture > ul > li > a:hover {
+	/*border-bottom: 3px solid rgb(219, 86, 86);*/
+	
+	transition: border 0.3s ease-in;
+	border-bottom: 3px solid #b23838;
+}
+
+
+
+.main-picture > ul > li {
+	padding-right: 3%;
 }
 .slogan {
 	text-align: center;
@@ -139,11 +158,10 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 }
 
 hr {
-	height: 2px;
-	color: wheat;
-	background-color: wheat;
+	height: 0.2rem;
+	background-color: #f38181;
 	border: none;
-	width: 50px;
+	width: 15%;
 	margin-top: 1.2rem;
 	margin-bottom: 1.2rem;
 }
@@ -202,10 +220,9 @@ hr {
     
 }
 
-.own_hr {
-    height: 2%;
-	background: #f38181;
-	width: 280px;
+.story_about > hr {
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 .RowWithElem > .col {
 	text-align: center;
@@ -484,4 +501,8 @@ hr {
 
 #iframe_borded {
     border-bottom: 3px solid #429b8e;
+}
+
+.main_menu {
+	padding-top: 1%;
 }
