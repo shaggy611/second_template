@@ -90,7 +90,8 @@ body {
 }
 
 .main_picture {
-    background: url("../img/bg/main_bg_1.jpg") no-repeat center center fixed;
+    background: url("../img/photo/main_bg_2.jpeg") no-repeat fixed;
+    background-position: center;
     background-size: cover;
     height: 100vh;
     max-height: 100%;
@@ -115,18 +116,36 @@ body {
 	margin-bottom: 1rem;
 }
 .slogan > h1 {
-	/*letter-spacing: 0.5rem;*/
+	letter-spacing: 0.6rem;
     font-family: 'Lobster', cursive;
 }
 
+.main_text_information > p {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 1.5rem;
+    border-left: 2px solid #e78500;
+    padding-left: 10px;
+    /*background-color: #000000;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-weight: 600;*/
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
 hr {
-	height: 5px;
+	height: 2px;
 	color: wheat;
 	background-color: wheat;
 	border: none;
 	width: 50px;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
 }
 
 .learn_more_button {
@@ -141,22 +160,37 @@ hr {
 
 .whatWeDo {
 	margin-top: 5rem;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	text-align: center;
+    margin-bottom: -2%;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.2rem;
 }
 
 .StoryAboutUs {
 	margin-top: 2rem;
-	font-size: 3rem;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+.StoryAboutUsCourse > p {
+    font-family: 'Lobster', cursive;
+    color: rgb(230, 253, 248);
+    letter-spacing: 0.2em;
+    margin-top: 2rem;
+	font-size: 9rem;
 	text-align: center;
 	font-weight: 600;
 }
 
 .LorIp {
 	text-align: center;
-	color: #999;
-	margin-left: 20rem;
-	margin-right: 20rem;
+	color: black;
+	margin-left: 10rem;
+	margin-right: 10rem;
+    font-style: italic;
+    font-size: 1.5rem;
 }
 
 
@@ -169,8 +203,9 @@ hr {
 }
 
 .own_hr {
+    height: 2%;
 	background: #f38181;
-	width: 80px;
+	width: 280px;
 }
 .RowWithElem > .col {
 	text-align: center;
@@ -218,12 +253,20 @@ hr {
 
 
 .story_about {
-    margin-bottom: 10%;
+    background: url("../img/photo/course_gb.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 100%;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid #429b8e;
 }
 
 ._devices {
-    background: url(../img/bg/bg-features.jpg) no-repeat;
-    background-size: cover;
+    background: #ffebd2;
+    padding-bottom: 2%;
+    border-bottom: 3px solid #429b8e;
 }
 
 .ipad {
@@ -288,4 +331,157 @@ hr {
 
 ._quotes > .row > p {
 	font-weight: 600;
+}
+
+.video_you {
+   border: 5px solid red;
+    
+}
+
+.RowWithElem_1 {
+   border-bottom: 3px solid #429b8e; 
+}
+
+.own_carousele {
+    width: 50%;
+}
+
+.main_txt {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background: rgb(255, 212, 96);
+    border-bottom: 3px solid #429b8e;
+    border-top: 3px solid #429b8e;
+}
+
+.own_iframe {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main_text_information {
+    font-style: italic;
+}
+
+.vidguk {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.vidguk_1 {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.circle_span {
+    background: url("../img/photo/client-1.png") no-repeat center;
+    height: 7rem;
+    margin-bottom: 4%;
+}
+
+.vidguk_card {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.vidguk_card > h3 {
+   font-size: 1.5em;
+    margin-bottom: 6%;
+}
+
+.vidguk_card > p {
+    font-style: italic;
+}
+
+.form_own > input {
+    margin-right: 3%;
+}
+
+.formOwn {
+    border: 3px solid white;
+	height: 140%;
+	border-radius: 0.5rem;
+	width: 19rem;
+    background: none;
+    font-size: 1.5rem;
+    color:aliceblue;
+}
+
+.formOwn_bt {
+	border-radius: 1.7rem;
+	background: rgb(108, 89, 180)
+}
+
+.formOwn:focus{
+    background: none;
+    color:aliceblue;
+}
+
+.sign_up {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 1%;
+}
+
+.divWithForm {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background: url("../img/photo/bg_for_course.jpg") no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #429b8e;
+    border-top: 3px solid #429b8e;
+    
+}
+
+.formOwnBtn {
+    background: rgba(58, 56, 123, 0.9);
+}
+.formOwnBtn:hover {
+    background: rgba(40, 36, 168, 0.9);
+}
+
+.rozpus {
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+
+#rozpys {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 3%;
+}
+
+.rzp_img {
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7); 
+}
+
+#img_main_txt {
+    border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
+}
+
+.footer {
+    background: #153e5c;
+    height: 20vh;
+}
+
+.copyr {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.copy_row {
+    padding-top: 8%;
+}
+
+#iframe_borded {
+    border-bottom: 3px solid #429b8e;
 }
