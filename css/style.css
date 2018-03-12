@@ -738,3 +738,27 @@ blockquote p {
     border-bottom: 3px solid #429b8e;
     border-top: 3px solid #429b8e; 
 }
+
+.modal-body {
+    text-align: center;
+    font-size: 1.7rem;
+    
+}
+
+.modal-content {
+    background: rgba(183, 85, 66, 0.8);
+}
+
+.modal-header {
+    border-bottom-color: black;
+}
+
+.modal-footer {
+    border-top-color: black;
+}
+
+.mod_close {
+    background: #429b8e;
+    color: black;
+    border: 1px solid black;
+}

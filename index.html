@@ -9,6 +9,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/y_style.css">
 	<link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/animate.css">	     
       </head>
@@ -62,7 +63,7 @@
 		</div>
 	</div>
 	</div>
-<!--<div class="container-fluid" id="iframe_borded">
+<div class="container-fluid" id="iframe_borded">
 	<div class="row">
 		<div class="col-md own_iframe">
 			<div class="embed-responsive embed-responsive-16by9">
@@ -70,7 +71,7 @@
 			</div>
 		</div>
 	</div>
-</div>-->
+</div>
 
 <div class="container-fluid vidguk">
 	
@@ -98,35 +99,7 @@
 	</div>
 	
 </div>
-<!--<div class="container-fluid RowWithElem_1">
-	<div class="row RowWithElem">
-		<div class="col">
-			<p>42</p>
-			<br>
-			<p>ВИКОНАНИХ КАРТИНИ</p>
-		</div>
-		<div class="col">
-			<p>123</p>
-			<br>
-			<p>ЗАДОВОЛЕНИХ КЛІЄНТИ</p>
-		</div>
-		<div class="col">
-			<p>30</p>
-			<br>
-			<p>РОЗПИСІВ НА ЗАМОВЛЕННЯ</p>
-		</div>
-		<div class="col">
-			<p>99</p>
-			<br>
-			<p>ЧАШОК КАВИ</p>
-		</div>
-		<div class="col">
-			<p>24</p>
-			<br>
-			<p>ВИПУСКНИКИ КУРСІВ</p>
-		</div>
-	</div>
-</div>-->
+<!--Зворотній-->
 
 <div class="container-fluid divWithForm">
 	<p class="sign_up"> Записатись на курси </p>
@@ -240,15 +213,32 @@
 </div>
 
 <div class="container-fluid divWithForm_last_1">
-	<p class="sign_up"> Замовити картину </p>
-	<form>
+	<p class="sign_up" id="picture"> Замовити картину </p>
+	<form id="picture_form">
 		<div class="form-row justify-content-center">
 			<div class="col-form-label-lg">
-				<input type="text" class="form-control formOwn_last" placeholder="Ім'я" name="picture_name"> </div>
+				<input type="text" class="form-control formOwn_last" placeholder="Имя" name="picture_name"> </div>
 			<div class="col-form-label-lg">
-				<input type="email" class="form-control formOwn_last" placeholder="Телефон" name="picture_number"> </div>
+				<input type="text" class="form-control formOwn_last" placeholder="Телефон" name="picture_number"> </div>
 			<div class="col-form-label-lg">
-				<button type="submit" class="btn btn-primary formOwn_last formOwnBtn_last wow pulse">ЗАМОВИТИ</button>
+				<button type="submit" class="btn btn-primary formOwn_last formOwnBtn_last wow pulse" name="picture_submit" >ЗАМОВИТИ</button>
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Вы ввели не правильные данные
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary mod_close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 			</div>
 		</div>
 		
@@ -266,6 +256,7 @@
 					<li>
 						<a href="#"> <img src="./img/photo/insta.png" alt="instagram"> </a>
 					</li>
+					<li>
 					<li>
 						<a href="#"> <img src="./img/photo/pinterest.png" alt="pinterest"> </a>
 					</li>
@@ -285,6 +276,7 @@
 	<!--<script src="./js/jquery.min.js"></script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="./js/main.js"></script>
+<script src="./js/y.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script src="./js/wow.js"></script>
