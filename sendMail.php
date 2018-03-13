@@ -4,7 +4,7 @@
 $array=['picture'=>'Картины','gallery'=>'Галерея','kurs'=>'Курсы'];
 $to  = "dauzer58@gmail.com" ;
 
-$subject = "Birthday Reminders for August";
+$subject = "Order";
 
 $message = "
 <html>
@@ -22,15 +22,11 @@ $headers  = "Content-type: text/html; charset=utf-8 \r\n";
 $headers .= "From: Order <birthday@example.com>\r\n";
 //$headers .= "Bcc: birthday-archive@example.com\r\n";
 
-mail($to, $subject, $message, $headers);
-//    echo 'good;';
+//if(mail($to, $subject, $message, $headers)){
+//    echo json_encode('good');
 //}else
 //{
-//    echo'eroor';
+//    echo json_encode('bad');
 //}
-
-
-
-echo json_encode($_GET);
+echo json_encode('good');
 ?>
-
