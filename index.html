@@ -7,11 +7,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="css/media_queries.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/y_style.css">
     <link rel="stylesheet" href="css/animate.css"> 
-     <link rel="stylesheet" href="css/cards_style.css">	     
+    <link rel="stylesheet" href="css/cards_style.css">	      
       </head>
 <body>
 
@@ -19,31 +21,35 @@
     <div class="dark">
         <div class="row main_menu">
             <div class="col-md main-picture">
-                <!--<ul class="navbar-nav justify-content-center">
+               <!-- <ul class="nav justify-content-center">
                         <li class="nav-item"> <a class="nav-link active" href="#courses">Курси</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#rozpus">Розпис</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#_devices">Картини</a></li>
                     </ul>-->
-                <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="navbar navbar-expand-md navbar-light fixed-top NavOwnStyle">
+                    <button class="navbar-toggler navtgOwn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse otherMenu justify-content-around" id="navbarNavDropdown">
 
-                        <ul class="navbar-nav justify-content-center">
-                            <li class="nav-item"> <a class="nav-link active" href="#courses">Курси</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#rozpus">Розпис</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#_devices">Картини</a></li>
+                        <ul class="nav menuul">
+                            <li class="nav-item"> <a class="nav-link active" href="#courses">Курсы</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#rozpus">Розпись</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#_devices">Картины</a></li>
                         </ul>
                     </div>
                 </nav>
-            </div>
+                
+                
+                
+                
+          </div>
         </div>
 
         <div class="row justify-content-center next_button">
             <div>
-                <hr>
-                <a href="#main_txt"><button type="button" class="btn btn-outline-dark learn_more_button wow pulse">Дізнатись більше</button></a>
+                <hr class="firstHR">
+                <a href="#main_txt"><button type="button" class="btn btn-outline-dark learn_more_button wow pulse">Узнать больше</button></a>
             </div>
         </div>
     </div>
@@ -54,12 +60,12 @@
     <div class="container-fluid main_txt">
         <div class="row">
             <div class="col-md whatWeDo StoryAboutUs">
-                <p id="main_txt">Про нашу майстерню</p>
+                <p id="main_txt">О нашей мастерской</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2"> <img src="./img/photo/course_gb.jpg" alt="course" width="500" height="350" id="img_main_txt"> </div>
-            <div class="col-md-10 main_text_information">
+            <div class="col-md"> <img src="./img/photo/course_gb.jpg" alt="course" class="img-fluid maystImg" width="500" height="350" id="img_main_txt"> </div>
+            <div class="col-md main_text_information">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque explicabo aut, quae reprehenderit amet ipsa neque mollitia incidunt, illum officia saepe ab iure corrupti deserunt dolorem aperiam vel, libero provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab est, ex, vel quod natus quia at assumenda voluptas fugit error, provident debitis. Praesentium dolorum nobis, odit quibusdam sequi minima doloremque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea eum ipsa laudantium quasi laborum fugiat sint, labore magnam sed, nulla officia, error voluptates illum. Libero illo officiis nostrum blanditiis.</p>
             </div>
         </div>
@@ -67,7 +73,7 @@
     <div class="container-fluid story_about" id="courses">
         <div class="row">
             <div class="col-md StoryAboutUsCourse">
-                <p id="courses"> Курси </p>
+                <p id="courses"> Курсы </p>
             </div>
         </div>
         <hr class="own_hr">
@@ -91,7 +97,7 @@
 
         <div class="row">
             <div class="col-md StoryAboutUs">
-                <p> Відгуки про майстерню </p>
+                <p> Отзывы о нашей мастерской </p>
             </div>
         </div>
         <div class="row justify-content-between vidguk_1">
@@ -116,7 +122,7 @@
     <!--Зворотній-->
 
     <div class="container-fluid divWithForm">
-        <p class="sign_up"> Записатись на курси </p>
+        <p class="sign_up sign_up_1"> Записаться на курсы </p>
         <form>
             <div class="form-row justify-content-center">
                 <div class="col-form-label-lg">
@@ -124,7 +130,10 @@
                 <div class="col-form-label-lg">
                     <input type="email" class="form-control formOwn" placeholder="Телефон" name="course_number"> </div>
                 <div class="col-form-label-lg">
-                    <button type="submit" class="btn btn-primary formOwn formOwnBtn wow pulse">ЗАПИСАТИСЬ</button>
+                    <button type="submit" class="btn btn-primary formOwn formOwnBtn wow pulse">ЗАПИСАТЬСЯ</button>
+                </div>
+                <div class="col-form-label-lg">
+                    <button type="button" class="btn btn-primary formOwn formOwnBtn" id="pricebt1">ЦЕНА</button>
                 </div>
             </div>
 
@@ -134,9 +143,9 @@
     <div class="container-fluid rozpus" id="rozpus">
         <div class="row">
             <div class="col-md">
-                <p class="sign_up"> Розписи </p>
+                <p class="sign_up"> Розпись </p>
                 <hr class="own_hr">
-                <p id="rozpys"> Представляємо вам приклаlи наших розписів</p>
+                <p id="rozpys"> Представляем примеры нашых розписей</p>
             </div>
         </div>
         <div class="row">
@@ -152,7 +161,7 @@
     <div class="container-fluid main_txt_second">
         <div class="row second_text">
             <div class="col-md whatWeDo_second StoryAboutUs_second">
-                <p>Деяка важлива інформація</p>
+                <p>Некоторая важная инормация</p>
             </div>
         </div>
         <div class="row">
@@ -161,13 +170,13 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque explicabo aut, quae reprehenderit amet ipsa neque mollitia incidunt, illum officia saepe ab iure corrupti deserunt dolorem aperiam vel, libero provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab est, ex, vel quod natus quia at assumenda voluptas fugit error, provident debitis. Praesentium dolorum nobis, odit quibusdam sequi minima doloremque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea eum ipsa laudantium quasi laborum fugiat sint, labore magnam sed, nulla officia, error voluptates illum. Libero illo officiis nostrum blanditiis.</p>
                 </blockquote>
             </div>
-            <div class="col-md-4 mtimg"> <img src="./img/photo/brush_5.jpg" alt="brush" width="540" height="420" id="img_main_txt_second"> </div>
+            <div class="col-md-5 mtimg"> <img src="./img/photo/brush_5.jpg" alt="brush" class="img-fluid" width="540" height="420" id="img_main_txt_second"> </div>
         </div>
 
     </div>
 
     <div class="container-fluid divWithForm_last">
-        <p class="sign_up"> Замовити розпис </p>
+        <p class="sign_up"> Заказать розпись </p>
         <form>
             <div class="form-row justify-content-center">
                 <div class="col-form-label-lg">
@@ -175,7 +184,10 @@
                 <div class="col-form-label-lg">
                     <input type="email" class="form-control formOwn_last" placeholder="Телефон" name="rozpus_number"> </div>
                 <div class="col-form-label-lg">
-                    <button type="submit" class="btn btn-primary formOwn_last formOwnBtn_last wow pulse">ЗАМОВИТИ</button>
+                    <button type="submit" class="btn btn-primary formOwn_last formOwnBtn_last wow pulse">ЗАКАЗАТЬ</button>
+                </div>
+                <div class="col-form-label-lg">
+                    <button type="button" class="btn btn-primary formOwn_last formOwnBtn_last">ЦЕНА</button>
                 </div>
             </div>
 
@@ -185,14 +197,14 @@
     <div class="container-fluid _devices" id="_devices">
         <div class="row">
             <div class="col-md whatWeDo">
-                <p>Картини</p>
+                <p>Картины</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md StoryAboutUs">
                 <hr class="own_hr">
-                <p id="ourwork"> Наші роботи </p>
+                <p id="ourwork"> Наши работы </p>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -228,7 +240,7 @@
     </div>
 
     <div class="container-fluid divWithForm_last_1">
-        <p class="sign_up" id="picture"> Замовити картину </p>
+        <p class="sign_up" id="picture"> Заказать картину </p>
         <form id="picture_form">
             <div class="form-row justify-content-center">
                 <div class="col-form-label-lg">
@@ -236,7 +248,7 @@
                 <div class="col-form-label-lg">
                     <input type="text" class="form-control formOwn_last" placeholder="Телефон" name="picture_number"> </div>
                 <div class="col-form-label-lg">
-                    <button type="submit" class="btn btn-primary formOwn_last formOwnBtn_last wow pulse" name="picture_submit">ЗАМОВИТИ</button>
+                    <button type="submit" class="btn btn-primary formOwn_last formOwnBtn_last wow pulse" name="picture_submit">ЗАКАЗАТЬ</button>
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -246,7 +258,7 @@
         </button>
                                 </div>
                                 <div class="modal-body">
-                                    Вы ввели не правильные данные
+                                    Вы ввели неправильные данные
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary mod_close" data-dismiss="modal">Close</button>
@@ -254,6 +266,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-form-label-lg">
+                    <button type="button" class="btn btn-primary formOwn_last formOwnBtn_last" name="picture_submit">ЦЕНА</button>
                 </div>
             </div>
 
@@ -348,7 +363,7 @@
         <div class="row row_with_icons justify-content">
             <div class="col-md bl">
                 <a href="#main_picture_ank">
-                    <p id="backtop">Повернутись назад &rarr;</p>
+                    <p id="backtop">Вернуться назад &rarr;</p>
                 </a>
             </div>
             <div class="col-md social_ic_div">
@@ -368,7 +383,7 @@
         </div>
         <div class="row copy_row">
             <div class="col-md copyr">
-                <p>&copy; Всі права захищено. Майстерня Magic. 2018</p>
+                <p>&copy; Все права защищены. Майстерня Magic. 2018</p>
             </div>
         </div>
     </div>

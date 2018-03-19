@@ -98,30 +98,30 @@ body {
     width: 100%;
 }
 
-.main-picture > ul > li > a {
+.otherMenu > ul > li > a {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgb(255, 247, 247);
     font-family: 'Lobster', cursive;
     border-bottom: 3px solid rgba(0, 0, 0, 0.01);
 }
 
-.main-picture > ul > li > a:hover {
+.otherMenu > ul > li > a:hover {
     /*border-bottom: 3px solid rgb(219, 86, 86);*/
     transition: border 0.3s ease-in;
     border-bottom: 3px solid #ff6d6d;
 }
 
-.main-picture > ul > li:last-child {
+.otherMenu > ul > li:last-child {
     padding-right: 0px;
 }
 
-.main-picture > ul > li:first-child[] {
+.otherMenu > ul > li:first-child[] {
     
 }
 
-.main-picture > ul > li {
-    padding-right: 3%;
+.otherMenu > ul > li {
+    
 }
 
 .slogan {
@@ -186,6 +186,11 @@ hr {
     width: 15%;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
+}
+
+.firstHR{
+    margin-top: 30%;
+
 }
 
 .learn_more_button {
@@ -587,6 +592,7 @@ hr {
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, .2);*/
     /*filter: blur(1.2px);*/
     box-shadow: inset 2px 2px 5px black, 2px 2px 5px black;
+    margin-top: 5%;
 }
 
 .footer {
@@ -682,8 +688,12 @@ blockquote p {
     margin-right: 3%;
 }
 
+.social_ic > li > a {
+    text-decoration: none;
+}
+
 .social_ic > li > a > img:hover {
-    box-shadow: 0 0 2px 2px;
+    box-shadow: 0 0 2px 2px rgba(209, 65, 38, 0.9);
 }
 
 .social_ic > li {
@@ -717,6 +727,7 @@ blockquote p {
 
 #main_txt {
     margin-left: 14%;
+    margin-bottom: 2%;
 }
 
 #courses > hr {
@@ -768,3 +779,390 @@ blockquote p {
     color: black;
     border: 1px solid black;
 }
+
+
+
+.NavOwnStyle {
+    padding: 0px;
+    
+}
+
+
+
+.navtgOwn {
+    border: 3px solid #ff6d6d!important;
+    
+}
+
+.otherMenu {
+    background: rgba(0,0,0,0.5);
+    margin-left: 0px;
+}
+
+ .maystImg {
+        width: 90%;
+         height: 90%;
+        margin-top: 5%;
+        
+    }
+ .main_text_information > p {
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.4rem;
+    }
+
+/*==============================================*/
+.price_card {
+	padding-bottom: 5%;
+    border-bottom: 3px solid #429b8e;
+}
+
+.card-body {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid #f38181;;
+	color: grey;
+}
+
+.card-header {
+	background: #f38181;;
+	text-align: center;
+	color: aliceblue;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#card_bu_1 {
+	margin-top: 3rem;
+	background: #f38181;;
+	border-radius: 20px;
+	width: 150px;
+	height: 40px;
+}
+
+#card_bu_1:hover {
+	background: #f38181;;
+}
+
+#purp_card {
+	width: 100%;
+}
+
+#mysb {
+	color: dimgrey;
+	letter-spacing: 2px;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+
+.own_card_style {
+	line-height: 2.5;
+}
+
+.pricing_symbol {
+	top: -1.2rem;
+	color: black;
+	font-size: 1.7rem;
+}
+
+.card_price {
+	font-size: 4rem;
+	color: #424753;
+}
+
+.card_price_month {
+	font-size: 1.2rem;
+	margin-left: -1rem;
+	color: #aeb0b5;
+}
+
+.card_prof > .col-md {
+	padding: 0px;
+}
+
+.card_1 {
+	z-index: -1;
+}
+
+#purp_card_2 {
+	margin-right: 0%;
+}
+
+#purp_card_1 {
+	margin-left: 0%;
+}
+
+#card-header_1 {
+	background: #eceff3;
+	text-align: center;
+	color: #424753;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#card-header_2 {
+	background: #eceff3;
+	text-align: center;
+	color: #424753;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#card_body_1 {
+	border: 1px solid #eceff3;
+	color: grey;
+}
+#card_body_2 {
+	border: 1px solid #eceff3;
+	color: grey;
+}
+
+/*=======================================*/
+@media (max-width: 575.98px) {
+.learn_more_button {
+    margin-top: 50%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.otherMenu > ul > li > a {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 50%;
+}
+    .firstHR{
+        margin-top: 70%;
+        margin-bottom: -45%;
+    }
+    .maystImg {
+        width: 85%;
+        margin-top: 5%;
+        
+    }
+    
+    #img_main_txt {
+        margin-left: 8%;
+    }
+    .main_text_information > p {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1rem;
+    }
+    #main_txt{
+     margin-left: 2%;   
+    }
+    #courses {
+        font-size: 5rem;
+    }
+    .LorIp{
+       text-align: center;
+    color: black;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-style: italic;
+    font-size: 1.3rem; 
+    }
+    .vidguk_card{
+        margin-bottom: 1.5rem;
+    }
+    .sign_up_1 {
+        color: white;
+        letter-spacing: 0.1rem;
+    }
+    .col-form-label-lg {
+        margin-bottom: 1.5%;
+    }
+    .main_text_information_second > blockquote > p {
+    font-size: 1.2rem;
+    }
+    #img_main_txt_second{
+        width: 80%;
+        margin-left: 11%;
+    }
+    #purp_card_1 {
+		margin-left: 0%;
+	}
+    .card{
+        margin-bottom: 2%;
+    }
+    .card_prof{
+        width: 80%;
+        margin-left: 10%;
+    }
+   
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    	.card-body {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.card {
+		border: 0px solid rgba(0, 0, 0, .125);
+		margin-bottom: 2%;
+	}
+	#_picture_block_dark {
+		border-bottom: 0.001rem solid #D1D3DB;
+	}
+	.card-header {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#purp_card_2 {
+		width: 100%;
+	}
+	#purp_card_1 {
+		width: 100%;
+		margin-left: 0%;
+	}
+	#purp_card {
+		margin-left: 0 auto;
+	}
+	.own_naw {
+		display: block;
+	}
+    .learn_more_button {
+    margin-top: 35%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.otherMenu > ul > li > a {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 50%;
+}
+    .firstHR{
+        margin-top: 65%;
+        margin-bottom: -30%;
+    }
+    .maystImg {
+        width: 85%;
+        margin-top: 5%;
+        
+    }
+    
+    #img_main_txt {
+        margin-left: 8%;
+    }
+    .main_text_information > p {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1rem;
+    }
+    #main_txt{
+     margin-left: 2%;   
+    }
+    #courses {
+        font-size: 5rem;
+    }
+    .LorIp{
+       text-align: center;
+    color: black;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-style: italic;
+    font-size: 1.3rem; 
+    }
+    .vidguk_card{
+        margin-bottom: 1.5rem;
+    }
+    .sign_up_1 {
+        color: white;
+        letter-spacing: 0.1rem;
+    }
+    .col-form-label-lg {
+        margin-bottom: 1.5%;
+    }
+    .main_text_information_second > blockquote > p {
+    font-size: 1.2rem;
+    }
+    #img_main_txt_second{
+        width: 80%;
+        margin-left: 11%;
+    }
+    #purp_card_1 {
+		margin-left: 0%;
+	}
+    .card{
+        margin-bottom: 2%;
+    }
+    .card_prof{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .col-form-label-lg {
+        margin-bottom: 1.5%;
+    }
+     .firstHR{
+        margin-top: 40%;  
+    }
+    .otherMenu > ul > li > a {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 50%;
+}
+    .main_text_information > p {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-size: 1.2rem;
+    }
+       .maystImg {
+        width: 95%;
+         height: 85%;
+        margin-top: 5%;
+    }
+    .otherMenu > ul > li > a {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-left: 50%;
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main_text_information > p {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-size: 1.4rem;
+    }
+     .maystImg {
+        width: 95%;
+         height: 85%;
+        margin-top: 5%;
+        
+    }
+     .firstHR{
+        margin-top: 70%;
+        margin-bottom: -30%;
+    }
+ 
+}
+
+
+@media (min-width: 1200px) {
+   #purp_card_2 {
+	margin-right: 30%;
+}
+
+#purp_card_1 {
+	margin-left: 30%;
+}
+    #img_main_txt{
+        width: 700%;
+    }
+        
+}
+
+
