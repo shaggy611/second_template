@@ -90,7 +90,7 @@ body {
 }
 
 .main_picture {
-    background: url("../img/photo/main_bg_2.jpeg") no-repeat center center fixed;
+    background: url("../img/photo/main_bg_3.jpg") no-repeat center center fixed;
     /*background-position: center;*/
     background-size: cover;
     height: 100vh;
@@ -320,7 +320,7 @@ hr {
 
 
 .story_about {
-    background: url("../img/photo/course_img.jpg") no-repeat;
+    background: url("../img/photo/for_course.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
     max-height: 100%;
@@ -735,7 +735,7 @@ blockquote p {
 }
 
 #courses {
-    color: rgba(209, 65, 38, 0.9);
+    color: rgb(224, 150, 75);
 }
 
 .StoryAboutUsCourse {
@@ -797,6 +797,14 @@ blockquote p {
 .otherMenu {
     background: rgba(0,0,0,0.5);
     margin-left: 0px;
+}
+
+.otherMenu > ul > li {
+    margin-right: 6rem;
+}
+
+.otherMenu > ul {
+    margin-right: -9%;
 }
 
  .maystImg {
@@ -1166,3 +1174,16 @@ blockquote p {
 }
 
 
+
+#diff {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+
+
+
+
+#pricebt1 {
+    background: rgba(183, 85, 66, 0.8);
+}
