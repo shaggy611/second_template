@@ -188,10 +188,6 @@ hr {
     margin-bottom: 1.2rem;
 }
 
-.firstHR{
-    margin-top: 30%;
-
-}
 
 .learn_more_button {
     border: 5px solid #f38181;
@@ -583,7 +579,7 @@ hr {
 #img_main_txt {
     border-radius: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 #img_main_txt_second {
@@ -726,7 +722,7 @@ blockquote p {
 }
 
 #main_txt {
-    margin-left: 14%;
+    
     margin-bottom: 2%;
 }
 
@@ -808,7 +804,7 @@ blockquote p {
 }
 
  .maystImg {
-        width: 90%;
+        width: 80%;
          height: 90%;
         margin-top: 5%;
         
@@ -937,14 +933,15 @@ blockquote p {
     max-height: 100%;
     width: 100%;
 }
-    
-    .firstHR{
-        margin-top: 50%;
-    }
+ 
+	.next_button {
+    margin-top: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
     
 .learn_more_button {
-    height: 20%;
-    margin-top: 20rem;
+    height: 55%;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -955,10 +952,7 @@ blockquote p {
     font-size: 2rem;
     margin-left: 50%;
 }
-    .firstHR{
-        margin-top: 70%;
-        margin-bottom: -45%;
-    }
+   
     .maystImg {
         width: 85%;
         margin-top: 5%;
@@ -1048,7 +1042,6 @@ blockquote p {
 		display: block;
 	}
     .learn_more_button {
-    margin-top: 35%;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -1057,12 +1050,9 @@ blockquote p {
 .otherMenu > ul > li > a {
     font-weight: 400;
     font-size: 2rem;
-    margin-left: 50%;
+    margin-left: 30%;
 }
-    .firstHR{
-        margin-top: 65%;
-        margin-bottom: -30%;
-    }
+   
     .maystImg {
         width: 85%;
         margin-top: 5%;
@@ -1125,14 +1115,17 @@ blockquote p {
     .col-form-label-lg {
         margin-bottom: 1.5%;
     }
-     .firstHR{
-        margin-top: 40%;  
-    }
+    
     .otherMenu > ul > li > a {
     font-weight: 400;
     font-size: 2rem;
     margin-left: 50%;
 }
+	
+	   .otherMenu > ul > li {
+    margin-left: -2%;
+}
+	
     .main_text_information > p {
     margin-top: 5%;
     margin-left: 3%;
@@ -1150,6 +1143,16 @@ blockquote p {
     margin-left: 50%;
     
 }
+		.next_button {
+    margin-top: 60%;
+}
+    
+.learn_more_button {
+    height: 55%;
+	width: 30%;
+}
+	
+}
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1165,10 +1168,14 @@ blockquote p {
         margin-top: 5%;
         
     }
-     .firstHR{
-        margin-top: 70%;
-        margin-bottom: -30%;
-    }
+     .next_button {
+    margin-top: 50%;
+}
+    
+.learn_more_button {
+    height: 55%;
+	width: 30%;
+}
  
 }
 
@@ -1184,6 +1191,16 @@ blockquote p {
     #img_main_txt{
         width: 700%;
     }
+	
+			.next_button {
+    margin-top: 10%;
+}
+    
+.learn_more_button {
+    height: 60%;
+	width: 30%;
+
+}
         
 }
 
@@ -1194,10 +1211,14 @@ blockquote p {
     padding-right: 50%;
 }
 
-
-
-
-
+.next_button > .col-md {
+	text-align: center;
+}
 #pricebt1 {
     background: rgba(183, 85, 66, 0.8);
+}
+
+.formOwnBtnBl {
+	background: rgba(58, 56, 123, 0.9);
+	color: white;
 }
