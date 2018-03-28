@@ -1,6 +1,3 @@
-/**
- * Created by Aladin on 3/11/2018.
- */
 
 var p_sub=document.getElementsByName('picture_submit')[0];
 p_sub.addEventListener('click', function (e) {
