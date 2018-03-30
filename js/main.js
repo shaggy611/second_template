@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
     $(window).scroll(function () {
         if ($(window).scrollTop() < 3500) {
            $('#own_iframe').attr("src", "https://www.youtube.com/embed/c8GXs_eb1sY?&controls=2&fs=0&autoplay=1");
@@ -26,8 +27,14 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1100);
     });
     
-
-
-    
-    
+	
+	
+	 for (var i = 4; i < 88; i++){
+	$('#gallery').append('<figure class="photo"><a href="img/originals/(' + i +').jpg" data-lightbox="roadtrip" data-title="Photo"><img src="img/originals/min/(' + i + ').jpg" alt="Photo" /></a></figure>');
+	}
+	
+	 for (var j = 1; j < 27; j++){
+	$('#gallery_2').append('<figure class="photo_l"><a href="img/barel/' + j +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="img/barel/min/' + j + '.jpg" alt="Photo" /></a></figure>');
+	}
+	
 });

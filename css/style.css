@@ -108,6 +108,8 @@ body {
 
 .otherMenu > ul > li > a:hover {
     /*border-bottom: 3px solid rgb(219, 86, 86);*/
+    -webkit-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
     transition: color 0.3s ease-in;
     /*border-bottom: 3px solid #ff6d6d;*/
     color: #ff6d6d;
@@ -599,12 +601,14 @@ hr {
 
 .rzp_img {
     border-radius: 2rem;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 #img_main_txt {
     border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
     margin-left: 0%;
 }
 
@@ -613,7 +617,8 @@ hr {
     border-radius: 0.5rem;
     /*box-shadow: 0 4px 6px rgba(0, 0, 0, .2);*/
     /*filter: blur(1.2px);*/
-    box-shadow: inset 2px 2px 5px black, 2px 2px 5px black;
+    -webkit-box-shadow: inset 2px 2px 5px black, 2px 2px 5px black;
+            box-shadow: inset 2px 2px 5px black, 2px 2px 5px black;
     margin-top: 5%;
 }
 
@@ -716,7 +721,8 @@ blockquote p {
 }
 
 .social_ic > li > a > img:hover {
-    box-shadow: 0 0 2px 2px rgba(209, 65, 38, 0.9);
+    -webkit-box-shadow: 0 0 2px 2px rgba(209, 65, 38, 0.9);
+            box-shadow: 0 0 2px 2px rgba(209, 65, 38, 0.9);
 }
 
 .social_ic > li {

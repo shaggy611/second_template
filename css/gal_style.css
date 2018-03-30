@@ -9,56 +9,119 @@
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
+	
 }
+.container_2 {
+	width: 100%;
+	max-width: 80%;
+	margin: 0 auto;
+	padding-left: 3%;
+}
+
 .photo {
 	float: left;
-    width: 33.333333%;
+	width: 33.333333%;
 	padding: 10px;
 	box-sizing: border-box;
 }
-.photo img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border: 10px solid #eee;
-    box-sizing: border-box;
-}
-.photo a:hover {
-    opacity: 0.5;
-}
-.photo a {
-    display: block;
-    position: relative;
-}
-.photo a:after {
-    content: '';
-    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
-    width: 52px;
-    height: 35px;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    visibility: hidden;
-}
-.photo:hover> a:after {
-    visibility: visible;
-}
-.photo figcaption {
-    color: #999999;
-    text-align: center;
-    margin-top: 20px;
+
+.photo_l {
+	float: left;
+	width: 13.333333%;
+	padding: 10px;
+	box-sizing: border-box;
+	
 }
 
+.photo img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: 5px solid #eee;
+	box-sizing: border-box;
+}
+
+.photo a:hover {
+	opacity: 0.5;
+}
+
+.photo a {
+	display: block;
+	position: relative;
+}
+
+.photo a:after {
+	content: '';
+	background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+	width: 52px;
+	height: 35px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.photo:hover> a:after {
+	visibility: visible;
+}
+
+.photo figcaption {
+	color: #999999;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.photo_l img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: 5px solid #eee;
+	box-sizing: border-box;
+}
+
+.photo_l a:hover {
+	opacity: 0.5;
+}
+
+.photo_l a {
+	display: block;
+	position: relative;
+}
+
+.photo_l a:after {
+	content: '';
+	background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+	width: 52px;
+	height: 35px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.photo_l:hover> a:after {
+	visibility: visible;
+}
+
+.photo_l figcaption {
+	color: #999999;
+	text-align: center;
+	margin-top: 20px;
+}
 
 #gallery {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
-#gallery:after { 
-   content: '';
-   display: block; 
-   height: 0; 
-   clear: both;
+
+#gallery:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
 }
