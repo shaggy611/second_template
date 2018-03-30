@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $(window).scroll(function () {
-        if ($(window).scrollTop() < 1300) {
+        if ($(window).scrollTop() < 3500) {
            $('#own_iframe').attr("src", "https://www.youtube.com/embed/c8GXs_eb1sY?&controls=2&fs=0&autoplay=1");
         }
 
-         if ($(window).scrollTop() > 3000) {
+         if ($(window).scrollTop() > 4100) {
            $('#own_iframe').removeAttr("src");
            $('#own_iframe').attr("src", "https://www.youtube.com/embed/c8GXs_eb1sY?&controls=2&fs=0&autoplay=0");
         }

@@ -100,7 +100,7 @@ body {
 
 .otherMenu > ul > li > a {
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: rgb(255, 247, 247);
     font-family: 'Lobster', cursive;
     
@@ -422,7 +422,7 @@ hr {
     padding-bottom: 5%;
     background: rgb(255, 212, 96);
     border-bottom: 3px solid #429b8e;
-    border-top: 3px solid #429b8e;
+    /*border-top: 3px solid #429b8e;*/
 }
 
 .own_iframe {
@@ -565,7 +565,7 @@ hr {
 
 .rozpus {
     padding-bottom: 7%;
-    padding-top: 7%;
+    padding-top: 3%;
     background: rgb(255, 212, 96);
 }
 
@@ -752,6 +752,7 @@ blockquote p {
     font-weight: 600;
     font-size: 1.2rem;
     margin-bottom: 2%;
+	color: rgb(209, 65, 38);
 }
 
 #main_txt {
@@ -966,7 +967,7 @@ blockquote p {
 }
 
     .next_button {
-        margin-top: 40%;
+        margin-top: 20%;
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -1212,7 +1213,7 @@ blockquote p {
         
     }
      .next_button {
-    margin-top: 70%;
+    margin-top: 60%;
 }
     
 .learn_more_button {
