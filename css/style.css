@@ -598,6 +598,12 @@ hr {
     font-size: 2.7rem;
     margin-bottom: 3%;
 }
+#rozpys_1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 3%;
+}
 
 .rzp_img {
     border-radius: 2rem;
@@ -765,12 +771,19 @@ blockquote p {
     
     margin-bottom: 2%;
 }
+#main_txt_1 {
+    
+    margin-bottom: 2%;
+}
 
 #courses > hr {
     background: rgba(209, 65, 38, 0.9);
 }
 
 #courses {
+    color: rgb(224, 150, 75);
+}
+#courses_1 {
     color: rgb(224, 150, 75);
 }
 
@@ -1008,7 +1021,13 @@ blockquote p {
     #main_txt {
         margin-left: 2%;
     }
+     #main_txt_1 {
+        margin-left: 2%;
+    }
     #courses {
+        font-size: 5rem;
+    }
+    #courses_1 {
         font-size: 5rem;
     }
     .LorIp {
@@ -1108,7 +1127,13 @@ blockquote p {
     #main_txt{
      margin-left: 2%;   
     }
+     #main_txt_1{
+     margin-left: 2%;   
+    }
     #courses {
+        font-size: 5rem;
+    }
+      #courses_1 {
         font-size: 5rem;
     }
     .LorIp{
@@ -1287,6 +1312,17 @@ blockquote p {
     font-size: 1.5rem;
     font-weight: 600;
 }
+#btc_1 {
+    margin-top: 1%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#btc_2 {
+    margin-top: 1%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 
 .pwa {
     text-align: center;
@@ -1328,4 +1364,25 @@ blockquote p {
 .card-text_ibb {
     font-style: italic;
     color: #429b8e;
+}
+
+#card_body_2 > hr {
+    background-color: rgba(0, 0, 0, 0);
+} 
+
+.crdhd {
+   display: none;
+}
+
+.cardInfHide {
+    background: none;
+    color: #f38181;
+    border: 2px solid #f38181;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+.cardInfHide:hover {
+   background: rgba(183, 85, 66, 0.5);
+    transition: background 0.3s ease-in;
+    color: black;
 }
