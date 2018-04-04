@@ -228,7 +228,7 @@ hr {
 
 .StoryAboutUs {
     margin-top: 2rem;
-    font-size: 2.3rem;
+    font-size: 2.7rem;
     text-align: center;
     font-weight: 600;
     font-family: 'Lobster', cursive;
@@ -784,7 +784,24 @@ blockquote p {
     color: rgb(224, 150, 75);
 }
 #courses_1 {
-    color: rgb(224, 150, 75);
+	color: #E1964C;
+	text-shadow: 
+		-0   -1px 0   #FFFFFF,
+		 0   -1px 0   #FFFFFF,
+		-0    1px 0   #FFFFFF,
+		 0    1px 0   #FFFFFF,
+		-1px -0   0   #FFFFFF,
+		 1px -0   0   #FFFFFF,
+		-1px  0   0   #FFFFFF,
+		 1px  0   0   #FFFFFF,
+		-1px -1px 0   #FFFFFF,
+		 1px -1px 0   #FFFFFF,
+		-1px  1px 0   #FFFFFF,
+		 1px  1px 0   #FFFFFF,
+		-1px -1px 0   #FFFFFF,
+		 1px -1px 0   #FFFFFF,
+		-1px  1px 0   #FFFFFF,
+		 1px  1px 0   #FFFFFF;
 }
 
 .StoryAboutUsCourse {

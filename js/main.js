@@ -60,7 +60,15 @@ $(document).ready(function() {
     
     
     
-
+ $(".forscroll").on("click", "a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().bottom;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+    
+    
+    
     $(".main_menu, .divWithForm, .divWithForm_last, .divWithForm_last_1").on("click", "a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
@@ -86,11 +94,9 @@ $(document).ready(function() {
 	 for (var j = 1; j < 27; j++){
 	$('#gallery_2').append('<figure class="photo_l"><a href="./img/barel/' + j +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/barel/min/' + j + '.jpg" alt="Photo" /></a></figure>');
 	}
-    
-    
-    
-    
-    
+     for (var k = 1; k < 8; k++){
+	$('#gallery_3').append('<figure class="photo_l"><a href="./img/course/' + k +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/course/min/' + k + '.jpg" alt="Photo" /></a></figure>');
+	}    
     
     $('.cardInfHide').text('Посмотреть всю информацию');
     $('.cardInfHide').click(function () {
