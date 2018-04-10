@@ -50,15 +50,15 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1100);
     });
     
-	 for (var i = 4; i < 88; i++){
+	 for (var i = 4; i < 37; i++){
 	$('#gallery').append('<figure class="photo"><a href="./img/originals/(' + i +').jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/originals/min/(' + i + ').jpg" alt="Photo" /></a></figure>');
 	}
 	
 	 for (var j = 1; j < 27; j++){
-	$('#gallery_2').append('<figure class="photo_l"><a href="./img/barel/' + j +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/barel/min/' + j + '.jpg" alt="Photo" /></a></figure>');
+	$('#gallery_2').append('<figure class="photo_l"><a href="./img/barel/' + j +'.jpg" data-lightbox="roadtrip" data-title="Photo_1"><img src="./img/barel/min/' + j + '.jpg" alt="Photo" /></a></figure>');
 	}
      for (var k = 1; k < 8; k++){
-	$('#gallery_3').append('<figure class="photo_l"><a href="./img/course/' + k +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/course/min/' + k + '.jpg" alt="Photo" /></a></figure>');
+	$('#gallery_3').append('<figure class="photo_l"><a href="./img/course/' + k +'.jpg" data-lightbox="roadtrip" data-title="Photo_2"><img src="./img/course/min/' + k + '.jpg" alt="Photo" /></a></figure>');
 	}    
     
     $('.cardInfHide').text('Посмотреть всю информацию');

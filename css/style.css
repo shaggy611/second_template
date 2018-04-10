@@ -659,6 +659,9 @@ hr {
 
 #iframe_borded {
     border-bottom: 3px solid #429b8e;
+	background: rgba(242, 190, 84, 0.83);
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .main_menu {
@@ -1039,7 +1042,7 @@ blockquote p {
 }
 
     .next_button {
-        margin-top: 40%;
+        margin-top: 30%;
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -1118,18 +1121,20 @@ blockquote p {
         width: 80%;
         margin-left: 10%;
     }
-	#btc{
-		font-size: 0.1rem;
+	#btc {
+		width: 80%;
+		font-size: 0.9rem!important;
 	}
+	
 	#btc_1 {
     margin-top: 1%;
-    font-size: 1rem;
-    font-weight: 600;
+    width: 80%;
+		font-size: 0.9rem!important;
 }
 	#btc_2 {
     margin-top: 1%;
-    font-size: 1%;
-    font-weight: 600;
+    width: 100%;
+		font-size: 0.9rem!important;
 }
 
 }
