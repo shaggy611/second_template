@@ -2,7 +2,7 @@
 <?php
 
 $array=['picture'=>'Барельеф','gallery'=>'Розпись','kurs'=>'Курсы'];
-$to  = "dauzer58@gmail.com" ;
+$to  = "" ;
 
 $subject = "Order";
 

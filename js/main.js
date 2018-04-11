@@ -55,10 +55,10 @@ $(document).ready(function() {
 	}
 	
 	 for (var j = 1; j < 27; j++){
-	$('#gallery_2').append('<figure class="photo_l"><a href="./img/barel/' + j +'.jpg" data-lightbox="roadtrip" data-title="Photo_1"><img src="./img/barel/min/' + j + '.jpg" alt="Photo" /></a></figure>');
+	$('#gallery_2').append('<figure class="photo_l"><a href="./img/barel/' + j +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/barel/min/' + j + '.jpg" alt="Photo" /></a></figure>');
 	}
      for (var k = 1; k < 8; k++){
-	$('#gallery_3').append('<figure class="photo_l"><a href="./img/course/' + k +'.jpg" data-lightbox="roadtrip" data-title="Photo_2"><img src="./img/course/min/' + k + '.jpg" alt="Photo" /></a></figure>');
+	$('#gallery_3').append('<figure class="photo_l"><a href="./img/course/' + k +'.jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/course/min/' + k + '.jpg" alt="Photo" /></a></figure>');
 	}    
     
     $('.cardInfHide').text('Посмотреть всю информацию');

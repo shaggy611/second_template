@@ -77,8 +77,8 @@ z_sub.addEventListener('click', function (e) {
 });
 
 //курсы
-var c_sub=document.getElementsByName('course_submit')[0];
-c_sub.addEventListener('click', function (e) {
+var cu_sub=document.getElementsByName('course_submit')[0];
+cu_sub.addEventListener('click', function (e) {
     e.preventDefault();
     var course_name = document.getElementsByName('course_name')[0].value;
     var course_number = document.getElementsByName('course_number')[0].value;
@@ -87,8 +87,8 @@ c_sub.addEventListener('click', function (e) {
     var co_name=course_name.match(/^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$/);
 
     if(co !=null && co_name !=null){
-        c_sub.removeAttribute('data-toggle');
-        c_sub.removeAttribute('data-target');
+        cu_sub.removeAttribute('data-toggle');
+        cu_sub.removeAttribute('data-target');
         var ourRequest = new XMLHttpRequest;
         var url ="http://www.olya-art.com.ua/sendMail.php?name="+course_name+"&number="+course_number+"&type=gallery";
         ourRequest.open("GET", url, true);
@@ -105,13 +105,13 @@ c_sub.addEventListener('click', function (e) {
             course_name.className+=" disable";
             var course_number = document.getElementsByName('course_number')[0];
             course_number.className+=" disable";
-            c_sub.className+=" disable";
+            cu_sub.className+=" disable";
         };
         ourRequest.send();
     }else
     {
-        с_sub.setAttribute('data-toggle','modal');
-        с_sub.setAttribute('data-target', '#exampleModal');
+        cu_sub.setAttribute('data-toggle','modal');
+        cu_sub.setAttribute('data-target', '#exampleModal');
         console.log('bad');
     }
     document.getElementById('picture_form').reset();
