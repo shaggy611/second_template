@@ -15,59 +15,26 @@ $(document).ready(function() {
     
     
     
+   $(".forscroll_2").on("click", "a", function (event) {
+        event.preventDefault();
+        
+            var top = $(".forscroll_2").offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    }); 
     
-   /*$(window).scroll(function () {
-        if ($(window).scrollTop() < 3500) {
-           $('#own_iframe').attr("src", "https://www.youtube.com/embed/c8GXs_eb1sY?&controls=2&fs=0&autoplay=1");
-        }
-
-         if ($(window).scrollTop() > 4100) {
-           $('#own_iframe').removeAttr("src");
-           $('#own_iframe').attr("src", "https://www.youtube.com/embed/c8GXs_eb1sY?&controls=2&fs=0&autoplay=0");
-        }
-    });*/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   $(".forscroll_1").on("click", "a", function (event) {
+        event.preventDefault();
+        
+            var top = $(".forscroll_1").offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });  
     
  $(".forscroll").on("click", "a", function (event) {
         event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().bottom;
+        
+            var top = $(".forscroll").offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
     });
-    
-    
     
     $(".main_menu, .divWithForm, .divWithForm_last, .divWithForm_last_1").on("click", "a", function (event) {
         event.preventDefault();
@@ -76,8 +43,6 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1500);
     });
     
-    
-
     $(".next_button").on("click", "a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
@@ -85,9 +50,7 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1100);
     });
     
-	
-	
-	 for (var i = 4; i < 88; i++){
+	 for (var i = 4; i < 37; i++){
 	$('#gallery').append('<figure class="photo"><a href="./img/originals/(' + i +').jpg" data-lightbox="roadtrip" data-title="Photo"><img src="./img/originals/min/(' + i + ').jpg" alt="Photo" /></a></figure>');
 	}
 	
